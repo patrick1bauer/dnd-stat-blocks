@@ -1,7 +1,15 @@
-FROM nginx:latest
+# Base Image
+FROM node:20-alpine
 
-# Copy website files
-COPY . /usr/share/nginx/html
+WORKDIR /app
 
-# Expose port 80 (Default nginx http port)
-EXPOSE 80
+COPY package*.json .
+
+# Install dependencies
+RUN npm install
+
+COPY . .
+
+EXPOSE 6969
+
+CMD [ "npm", "run", "dev" ]
