@@ -3,13 +3,10 @@ FROM node:20-alpine
 
 WORKDIR /app
 
-COPY package*.json .
+# Copy Web Files
+COPY out/ out
+COPY package.json .
 
-# Install dependencies
-RUN npm install
+EXPOSE 3000
 
-COPY . .
-
-EXPOSE 6969
-
-CMD [ "npm", "run", "dev" ]
+CMD [ "npm", "run", "start" ]

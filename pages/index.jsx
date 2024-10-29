@@ -1,5 +1,3 @@
-import CopyText from '@/components/CopyText';
-
 export default function Home() {
   return (
     <div className="div-component">
