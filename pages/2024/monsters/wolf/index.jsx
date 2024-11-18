@@ -5,7 +5,7 @@ export default function Pseudodragon() {
   return (
     <>
     {/* Image */}
-    <img className={styles.monsterImage} src="/2024/monsters/Pseudodragon/Pseudodragon.png" />
+    <img className={styles.monsterImage} src="/2024/monsters/pseudodragon/Pseudodragon.png" />
 
       <div className={styles.statBlock}>
         <hr className={styles.orangeBorderTop} />

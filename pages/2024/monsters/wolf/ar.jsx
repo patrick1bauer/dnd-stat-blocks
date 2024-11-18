@@ -4,7 +4,7 @@ export default function AugmentedReailty() {
 
   return (
     <div>
-      <iframe className={styles.arWindow} src="/2024/monsters/pseudodragon/ar.html"/>
+      <iframe className={styles.arWindow} src="/2024/monsters/wolf/ar.html"/>
     </div>
   );
 }
