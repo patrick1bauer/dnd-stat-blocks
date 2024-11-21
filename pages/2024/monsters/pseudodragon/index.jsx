@@ -5,7 +5,7 @@ export default function Pseudodragon() {
   return (
     <>
     {/* Image */}
-    <img className={styles.monsterImage} src="/2024/monsters/Pseudodragon/Pseudodragon.png" />
+    <img className={styles.monsterImage} src="/2024/monsters/pseudodragon/Pseudodragon.png" />
 
       <div className={styles.statBlock}>
         <hr className={styles.orangeBorderTop} />
@@ -121,8 +121,8 @@ export default function Pseudodragon() {
             <div className={styles.propertyBlock}>
               <h4>Bite.</h4>
               <p>
-                <i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft.
-                <i>Hit:</i> 4 (1d4 + 2) piercing damage.
+                <i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft. 
+                <i> Hit:</i> 4 (1d4 + 2) piercing damage.
               </p>
             </div>
 
@@ -131,9 +131,9 @@ export default function Pseudodragon() {
               <p>
                 <i>Constitution Saving Throw:</i> DC 12, one creature the
                 pseudodragon can see within 5 feet.
-                <i>Failure:</i> 5 (2d4) Poison damage, and the target has the
+                <i> Failure:</i> 5 (2d4) Poison damage, and the target has the
                 Poisoned condition for 1 hour.
-                <i>Failure by 5 or More:</i> The Poisoned target also has the
+                <i> Failure by 5 or More:</i> The Poisoned target also has the
                 Unconscious condition until it takes damage or another creature
                 takes an action to shake it awake.
               </p>

@@ -3,10 +3,14 @@
 /* Image */
 
 .monsterImage {
-  margin: auto;
-  width: 10%;
-  padding: 0px 0px 16px 0px;
+  margin: 32px auto 16px auto;
+  width: 17%;
+  min-width: 280px;
+  padding: 4px;
   display: block;
+  /* box-sizing: border-box; */
+  border-radius: 32px;
+  box-shadow: 0 0 5em #867453;
 }
 
 /* Box style */
@@ -22,7 +26,6 @@
   min-width: 280px;
   background: #fdf1dc;
   background-image: url("../public/backgrounds/paper-texture.png");
-  /* background-image: url('../public/backgrounds/stat-block-top-texture.png'); */
   background-size: 100% auto;
   background-position: top center;
   padding: 5px 5px 20px;
