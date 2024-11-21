@@ -1,0 +1,182 @@
+/* Stat Block Styles */
+
+/* Image */
+
+.monsterImage {
+  margin: auto;
+  width: 10%;
+  padding: 0px 0px 16px 0px;
+  display: block;
+}
+
+/* Box style */
+
+.statBlock {
+  max-width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+  margin: 20px;
+  display: inline-block;
+  vertical-align: top;
+  width: 17%;
+  min-width: 280px;
+  background: #fdf1dc;
+  background-image: url("../public/backgrounds/paper-texture.png");
+  /* background-image: url('../public/backgrounds/stat-block-top-texture.png'); */
+  background-size: 100% auto;
+  background-position: top center;
+  padding: 5px 5px 20px;
+  box-shadow: 0 0 5em #867453;
+}
+
+.orangeBorderTop {
+  display: block;
+  background: #e69a28;
+  background-image: url("../public/backgrounds/stat-bar-book.png");
+  border: 1px solid #000;
+  height: 8px;
+  padding: 0 10px 0;
+  margin: -10px -11px 0;
+  box-sizing: initial;
+}
+
+.orangeBorderBottom {  display: block;
+  background: #e69a28;
+  background-image: url("../public/backgrounds/stat-bar-book.png");
+  border: 1px solid #000;
+  height: 8px;
+  padding: 0 10px 0;
+  margin: 15px -11px -20px;
+  box-sizing: initial;
+}
+
+/* Creature Heading */
+
+.creatureHeading h1 {
+  font-family: "Libre Baskerville", "Lora", "Calisto MT", "Bookman Old Style",
+    Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter",
+    Georgia, serif;
+  color: #922610;
+  font-size: 24px;
+  line-height: 1.2em;
+  margin: 10px 0 0;
+  letter-spacing: 1px;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+.creatureHeading h2 {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 1.2em;
+  margin: 0 0 10px;
+}
+
+/* Stats */
+
+.propertyLine h4 .propertyLine p {
+  display: inline;
+  margin: 0;
+  color: #922610;
+  font-size: 13.5px;
+  line-height: 1.2em;
+}
+
+.propertyLine h4, .propertyLineFirst h4, .propertyLineLast h4 {
+  color: #7a200d;
+}
+
+.propertyLine {
+  text-indent: -1em;
+  padding-left: 1.1em;
+  line-height: 1.4em;
+}
+
+.propertyLineFirst {
+  text-indent: -1em;
+  padding-left: 1.1em;
+  line-height: 1.4em;
+  margin: 8px 0 0;
+}
+
+.propertyLineLast {
+  text-indent: -1em;
+  padding-left: 1.1em;
+  line-height: 1.4em;
+  margin: 0 0 10px;
+}
+
+/* Abilities */
+
+.abilities {
+  text-align: center;
+  color: #922610;
+}
+
+.abilities > div {
+  display: inline-block;
+  vertical-align: middle;
+  width: 15.5%;
+  min-width: 40px;
+  font-size: 12px;
+  line-height: 1em;
+}
+
+.abilities h4 {
+  margin: 10px 0 2px;
+  font-size: 14px;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  color: #7a200d;
+}
+
+.abilities p {
+  margin: 0 0 10px;
+  line-height: 1.2em;
+}
+
+/* Properties */
+
+.propertyBlock h4 .propertyBlock p {
+  font-size: 13.5px;
+  line-height: 1.2em;
+  display: inline;
+  margin: 0;
+}
+
+.propertyBlock h4 {
+  font-style: italic;
+}
+
+.propertyBlock {
+  padding: 10px 2px 0;
+}
+
+/* Actions */
+
+.actions h3 {
+  border-bottom: 1px solid #7a200d;
+  color: #7a200d;
+  font-size: 21px;
+  font-variant: small-caps;
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin: 20px 0 0;
+  padding: 0 0 10px;
+  text-indent: 5px;
+}
+
+.actions {
+  margin: 0 0 20px;
+}
+
+.actions:lastChild {
+  margin: 0;
+}
+
+@media screen and (max-width: 575px) {
+  .statBlock {
+    margin: 10% 0;
+  }
+}
